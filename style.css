@@ -32,12 +32,12 @@ h1 {
 }
 
 .container .wheel {
-  width: 90vw;           
-  max-width: 350px;
-  aspect-ratio: 1 / 1;   
+  width: 200px;
+  height: 200px;      /* same as width to keep it a perfect circle */
   border-radius: 50%;
-  position: relative;
   overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .container .spinBtn {
@@ -98,7 +98,7 @@ clip-path: polygon(50% 0%, 14% 100%, 85% 100%);
 .container .wheel .option span {
     position: relative;
     transform: rotate(45deg) translateX(6px);;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 800;
     color: rgb(32, 6, 6);
     font-family: Arial, Helvetica, sans-serif;
