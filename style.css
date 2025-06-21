@@ -31,6 +31,15 @@ h1 {
   align-items: center;
 }
 
+.container .wheel {
+  width: 90vw;           
+  max-width: 350px;
+  aspect-ratio: 1 / 1;   
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
 .container .spinBtn {
     position: absolute;
     width: 60px;
