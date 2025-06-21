@@ -20,13 +20,15 @@ h1 {
 }
 
 .container {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+  width: 100%;
+  max-width: 350px;
+  padding: 50px;
+  margin: 0 auto;      
+  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .spinBtn {
